@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Animated Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">AwesomeSite</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar">
+            <ul class="sidebar-links">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+
+        <header class="animated-header">
+            <h1 class="glitch" data-text="interStellar">interStellar</h1>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Discover the Extraordinary</h2>
+                <p class="hero-description">Embark on a journey through innovation and creativity</p>
+                <a href="#" class="cta-button">Get Started</a>
+            </div>
+            <div class="hero-image">
+                <div class="cube">
+                    <div class="face front"></div>
+                    <div class="face back"></div>
+                    <div class="face right"></div>
+                    <div class="face left"></div>
+                    <div class="face top"></div>
+                    <div class="face bottom"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Add this section just before the closing </body> tag in index.html -->
+<section class="contact-section">
+  <h2 class="section-title">Contact Us</h2>
+  <form action="send_email.php" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</section>
+</body>
+</html>
